@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imtixon bootcamp</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Khula:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+</head>
+<body>
+    <header>
+        <nav class="container navbar">
+            <div>
+            <img src="./images/pngwing 1.svg" alt="netflix-logo">
+            <ul>
+                <li>HOME</li>
+                <li>TV-SHOWS</li>
+                <li>MOVIES </li>
+                <li>NEW</li>
+                <li>POPULAR</li>
+            </ul>
+        </div>
+        <input type="search" placeholder="Search">
+        </nav>
+    </header>
+    <main>
+        <section class="banner">
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+
+    </div>
+
+  </div>
+  <div class="button-box">
+    <img src="./images/Darlings.png" alt="Darlings">
+    <div class="buttons">
+      <button>Play</button>
+      <button>More info</button>
+
+    </div>
+  </div>
+        </section>
+        <section>
+          <!-- fetch 1 -->
+          <div class="container hero">
+            <a href="">
+            <h2>Hollywood Movies </h2>
+          </a>
+          <div class=" sviper">
+          </div>
+          </div>
+          <!-- fetch 2 -->
+          <div class="container trending-now">
+            <a href="#">
+            <h2>Trending Now</h2>
+          </a>
+            <div class="trending-movies">
+
+            </div>
+          </div>
+          <!-- fetch 3 -->
+           <div class="container trending-wrapper">
+            <a href="#">
+            <h2>Action Movies</h2>
+          </a>
+            <div class="action-movie">
+              
+            </div>
+          </div>
+          <!-- fetch 4 -->
+          <div class="container multi ">
+            <a href="#">
+            <h2>Premieres</h2>
+          </a>
+            <div class="action-multi">
+              
+            </div>
+          </div>
+          <!-- fetch 5 -->
+          <div class="container cartoon ">
+            <a href="#">
+            <h2>Cartoons</h2>
+          </a>
+            <div class="cartoons-card">
+              
+            </div>
+          </div>
+        </section>
+    </main>
+    <script src="./script/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 4000,
+          disableOnInteraction: false,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+</body>
+</html>

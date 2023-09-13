@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+.container{
+    max-width: 1245px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.wrapper{
+    display: flex;
+    gap: 58px;
+}
+.img{
+    width: 600px;
+    max-height: 532px;
+    object-fit: contain cover;
+}
+.wrapper h3{
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+}
+.wrapper h2{
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 77px;
+}
+.star{
+    width: 38px;
+    height: 38px;
+    object-fit: contain;
+}
+.starbox{
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    justify-content: start;
+}
+.starbox h4{
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+}
+.boxx{
+    display: flex;
+    gap: 30px;
+}
+.vote-box{
+    margin-top: 20px;
+}
+.vote-box p{
+    color: #FFF;
+    margin-top: 8px;
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    margin-bottom: 20px;
+}
+.vote-box span{
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+}
+.boxx h5{
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    margin-top: 30px;
+}
+
+.hero h2{
+    color: #FFF;
+    font-family: "Khula";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 77px;
+}
+.hero h3{
+    color: white;
+    font-family: "Khula";
+    font-size: 18px;
+    line-height: 1.3;
+    text-align: center;
+    
+    
+}
+.button-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top:130px;
+    left: 150px;
+    z-index: 2;
+}
+.buttons button{
+    width: 151px;
+    padding: 0 20px;
+    border-radius: 5px;
+    border: 0px solid #000;
+    background: #C5C5C5;
+    color: #F9F9F9;
+    cursor: pointer;
+
+}
+.buttons button:nth-child(1){
+    color: #000;
+    background-color: #FFF;
+    font-family: "IBM Plex Sans Thai";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px; 
+    margin-right: 10px;
+}
+.buttons button:nth-child(2){
+    font-family: "IBM Plex Sans Thai";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px; 
+}
+.movie-card{
+    max-width: 150px;
+
+}
+.movie-card img{
+    width: 150px;
+    height: 200px;
+    object-fit: contain cover;
+}
+.sviper{
+    display: flex;
+    gap: 50px;
+    width: 100%;
+    overflow-x: auto;
+    margin-left: 30px;
+    overflow-y: none;
+}
+.sviper::-webkit-scrollbar{
+    display: none;
+    
+}
+.trending-now {
+    width: 100%;
+    margin-top: 50px;
+    
+}
+.trending-now h2{
+    color: #FFF;
+    margin-bottom:25px;
+}
+.trending-movies{
+    display: flex;
+    gap: 50px;
+    overflow-x: auto;
+    margin-left: 30px;
+}
+.trending-movies::-webkit-scrollbar{
+    display: none;
+}
+.tranding-movie-card img{
+    max-width: 394px;
+    max-height: 212px;
+    object-fit: contain cover;
+
+}
+.trending-wrapper h2{
+    color: #FFF;
+    font-family: "Khula";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 77px;
+    margin-top: 50px;
+}
+.multi h2{
+    color: #FFF;
+    font-family: "Khula";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 77px;
+    margin-top: 50px;
+}
+.action-movie{
+    display: flex;
+    gap: 50px;
+    width: 100%;
+    overflow-x: auto;
+    margin-left: 30px;
+    overflow-y: none;
+}
+.action-movie::-webkit-scrollbar{
+    display: none;
+}
+.action-multi{
+    display: flex;
+    gap: 50px;
+    width: 100%;
+    overflow-x: auto;
+    margin-left: 30px;
+    overflow-y: none;
+}
+.action-multi::-webkit-scrollbar{
+    display: none;
+}
+.cartoon{
+    margin-bottom: 50px;
+}
+.cartoon h2{
+    color: #FFF;
+    font-family: "Khula";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 77px;
+    margin-top: 50px;
+}
+.cartoons-card{
+    display: flex;
+    gap: 50px;
+    width: 100%;
+    overflow-x: auto;
+    margin-left: 30px;
+    overflow-y: none;
+}
+.cartoons-card::-webkit-scrollbar{
+    display: none;
+}
+a{
+    text-decoration: none;
+}
+.title-box{
+    background-color: #043242;
+    height: 72px;
+    margin-top: -5px;
+    padding-top: 5px;
+    
+}
