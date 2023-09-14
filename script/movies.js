@@ -16,13 +16,13 @@ const options = {
 }
 console.log(moviesIdURL);
 //fetch 1
-fetch(`https://api.themoviedb.org/3/discover/tv/`, options)
+fetch(`https://api.themoviedb.org/3/discover/tv`, options)
 .then(response => response.json())
 .then(data => movieid(data))
 
 function movieid(data){
     const fragment = document.createDocumentFragment()
-data.results.forEach((el) => {
+data.results.forEach(el => {
     if(el.id == moviesIdURL){
         const div = document.createElement("div")
         const titleDiv = document.createElement("div")
